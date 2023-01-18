@@ -16,7 +16,7 @@ public class TestBottle {
         //System.out.println(b2.toSting());
 
 
-        System.out.println(b1.toSting());
+       // System.out.println(b1.toSting());
 
 
 

@@ -8,18 +8,16 @@ public class Bottle {
     //-- create one argument constructor to intialize isClean variable
     //-- create one argument constructor to initalize size
     //-- create one usage method which takes double amount as parameter and it updates the liquidAmount
-    double size;
-    boolean isClean;
-    double liquidAmount;
+    public double size;
+    public boolean isClean;
+    public double liquidAmount;
     public Bottle(boolean isClean){
         this.isClean=isClean;
-        System.out.println("+++++");
-
     }
     public Bottle(double size){
         this(true);
         this.size=size;
-        System.out.println("-------");
+        System.out.println("Fiji");
     }
     public void liquidAmount(double drink ){
         liquidAmount-=drink;
@@ -31,7 +29,7 @@ public class Bottle {
             System.out.println("It is small size");
         }
     }
-    public String toSting(){
+    public String toString(){
         return "Size: "+size + " isClean: "+isClean+" liquidAmount "+ liquidAmount;
     }
 

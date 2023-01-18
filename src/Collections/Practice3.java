@@ -1,5 +1,7 @@
 package Collections;
 
+import object.*;
+
 import java.util.ArrayList;
 
 public class Practice3 {
@@ -32,6 +34,19 @@ public class Practice3 {
         System.out.println(list1.isEmpty());
 
         System.out.println(methAr(zipcodes));
+        ArrayList mixed=new ArrayList();
+        mixed.add(8);
+        mixed.add("test");
+        mixed.add(true);
+        mixed.add(5.6);
+        Cat cat=new Cat();// data type of this object is CAT
+        mixed.add(cat);
+        Flower flower=new Flower();
+        Bottle bottle=new Bottle(4);
+        mixed.add(bottle);
+
+        System.out.println(mixed);
+
 
 
     }
